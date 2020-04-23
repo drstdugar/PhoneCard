@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.NoActionBar"
+    android:background="@color/backg">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/cardlist"
+                android:divider="@null"
+                android:dividerHeight="0dp">
+
+            </ListView>
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:id="@+id/add"
+                app:menu_colorNormal="@color/button"
+                app:menu_fab_size="normal"
+                app:menu_showShadow="true"
+                app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                app:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+                app:menu_labels_showShadow="true"
+                app:menu_labels_textColor="#ffffff"
+                app:menu_labels_textSize="15sp"
+                android:fitsSystemWindows="true"
+                app:menu_colorPressed="#1c37e9"
+                app:menu_colorRipple="#425aef">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="fitCenter"
+                    app:fab_label="Scan"
+                    app:fab_size="mini"
+                    android:id="@+id/scan"
+                    app:fab_colorNormal="@color/button"
+                    app:fab_colorPressed="#1c37e9"
+                    app:fab_colorRipple="#425aef"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/addmanually"
+                    app:fab_label="Add Manually"
+                    app:fab_size="mini"
+                    android:id="@+id/manual"
+                    app:fab_colorNormal="@color/button"
+                    app:fab_colorPressed="#1c37e9"
+                    app:fab_colorRipple="#425aef"/>
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

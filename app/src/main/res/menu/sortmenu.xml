@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sort"
+        android:title="Sort">
+
+        <menu>
+
+            <item
+                android:id="@+id/byname"
+                android:title="By name">
+            </item>
+
+            <item
+                android:id="@+id/bycompany"
+                android:title="By company">
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>

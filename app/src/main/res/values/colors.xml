@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c50f29ac</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF12249B</color>
+    <color name="title">#000000</color>
+    <color name="button">#FF12249B</color>
+    <color name="text">#434041</color>
+    <color name="backg">#e0fcf9</color>
+    <color name="menuhead">#1663fc</color>
+    <color name="error">#FF0003</color>
+</resources>
